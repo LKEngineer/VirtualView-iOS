@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.source       =  { :git => "", :tag => '1.0.0' }
+  s.source       =  { :git => "git@github.com:LKEngineer/VirtualView-iOS.git", :tag => '1.2.7' }
   s.source_files = 'VirtualView/**/*.{h,m}' 
   s.prefix_header_contents = '#import "VVDefines.h"'
 
